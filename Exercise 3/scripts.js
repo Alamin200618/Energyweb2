@@ -248,7 +248,7 @@ function populateTopicGallery() {
     { label: "Biomass",icon: "🌿",  desc: "Bioenergy & waste-to-energy",    link: "biomass.html"     },
     { label: "Geothermal", icon: "🌋", desc: "Enhanced geothermal systems", link: "geothermal.html"  },
     { label: "Nuclear",icon: "⚛️",  desc: "SMRs & next-gen reactors",       link: "nuclear.html"     },
-    { label: "TV Story", icon: "📺", desc: "Screen tech & power consumption", link: "index.html#tv-story" }
+    { label: "TV Story", icon: "📺", desc: "Screen tech & power consumption", link: "tv-story.html" }
   ];
 
   gallery.innerHTML = topics.map(t => `
